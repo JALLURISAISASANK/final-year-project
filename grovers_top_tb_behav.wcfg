@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="grovers_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="grovers_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="40.001 ns"></ZoomEndTime>
+      <Cursor1Time time="40.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="226"></NameColumnWidth>
+      <ValueColumnWidth column_width="604"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/grovers_top_tb/target_hash" type="array">
+      <obj_property name="ElementShortName">target_hash[63:0]</obj_property>
+      <obj_property name="ObjectShortName">target_hash[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/grovers_top_tb/match_index" type="array">
+      <obj_property name="ElementShortName">match_index[9:0]</obj_property>
+      <obj_property name="ObjectShortName">match_index[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/grovers_top_tb/found" type="logic">
+      <obj_property name="ElementShortName">found</obj_property>
+      <obj_property name="ObjectShortName">found</obj_property>
+   </wvobject>
+   <wvobject fp_name="/grovers_top_tb/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/grovers_top_tb/HASH_WIDTH" type="array">
+      <obj_property name="ElementShortName">HASH_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HASH_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/grovers_top_tb/Q_TOTAL" type="array">
+      <obj_property name="ElementShortName">Q_TOTAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_TOTAL[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/grovers_top_tb/Q_FRACT" type="array">
+      <obj_property name="ElementShortName">Q_FRACT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_FRACT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
